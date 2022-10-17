@@ -1,6 +1,6 @@
 ---
 title: "'Local Specialization and Growth:The Italian Land Reform' with Riccardo Bianchi Vimercati, and Giampaolo Lecce "
-collection: publications
+collection: research
 permalink: #/publication/2010-10-01-paper-title-number-2
 excerpt: 'Land distribution has ambiguous effects on structural transformation: large landowners can slow industrialization by limiting the provision of education, but larger scale and local market power might accelerate the mechanization of production. We examine the effects of redistribution following the Italian 1950 land reform and find that redistribution led to less industrialization. We explain this finding with a reduction in the scale of operations and a more intensive use of family labor. Agricultural specialization persisted for at least 50 years, consistent with models of occupational inheritance. Finally, we show that expropriated areas had lower growth during 1970-2000. '
 date: #2010-10-01
