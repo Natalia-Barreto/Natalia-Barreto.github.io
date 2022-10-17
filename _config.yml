@@ -178,10 +178,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  policy:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -218,19 +218,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _policy
   - scope:
       path: ""
-      type: portfolio
+      type: policy
     values:
       layout: single
       author_profile: true
