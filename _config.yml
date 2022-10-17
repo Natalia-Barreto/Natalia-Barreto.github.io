@@ -84,10 +84,10 @@ author:
   avatar           : "profile.png"
   bio              : "Research Director at UChicago's Ed and Crime Labs"
   location         : 
-  employer         :
+  employer         : "https://urbanlabs.uchicago.edu/labs/education"
   pubmed           : 
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    :  # "http://yourfullgooglescholarurl.com"
+  email            : "magnaricotte@uchicago.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           :  # "academicpages"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :  # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :  # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :  # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/magnaricotte"
   vine             :
   weibo            :
   xing             :
