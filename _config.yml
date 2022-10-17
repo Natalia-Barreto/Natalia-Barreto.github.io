@@ -84,9 +84,9 @@ author:
   avatar           : "profile.png"
   bio              : "Research Director at UChicago's Ed and Crime Labs"
   location         : 
-  employer         : "https://urbanlabs.uchicago.edu/labs/education"
+  employer         :  # "https://urbanlabs.uchicago.edu/labs/education"
   pubmed           : 
-  googlescholar    :  # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=fOI_3jQAAAAJ"
   email            : "magnaricotte@uchicago.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -109,7 +109,7 @@ author:
   stackoverflow    :  # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/magnaricotte"
+  twitter          : "magnaricotte"
   vine             :
   weibo            :
   xing             :
