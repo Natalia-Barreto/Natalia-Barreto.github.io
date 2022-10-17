@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 2"
+title: "'Local Specialization and Growth:The Italian Land Reform' with Riccardo Bianchi Vimercati, and Giampaolo Lecce "
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: #/publication/2010-10-01-paper-title-number-2
+excerpt: 'Land distribution has ambiguous effects on structural transformation: large landowners can slow industrialization by limiting the provision of education, but larger scale and local market power might accelerate the mechanization of production. We examine the effects of redistribution following the Italian 1950 land reform and find that redistribution led to less industrialization. We explain this finding with a reduction in the scale of operations and a more intensive use of family labor. Agricultural specialization persisted for at least 50 years, consistent with models of occupational inheritance. Finally, we show that expropriated areas had lower growth during 1970-2000. '
+date: #2010-10-01
+venue: #'Journal 1'
+paperurl: #'http://academicpages.github.io/files/paper2.pdf'
+citation: #'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+Land distribution has ambiguous effects on structural transformation: large landowners can slow industrialization by limiting the provision of education, but larger scale and local market power might accelerate the mechanization of production. We examine the effects of redistribution following the Italian 1950 land reform and find that redistribution led to less industrialization. We explain this finding with a reduction in the scale of operations and a more intensive use of family labor. Agricultural specialization persisted for at least 50 years, consistent with models of occupational inheritance. Finally, we show that expropriated areas had lower growth during 1970-2000. 
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](https://github.com/Magna24/Hosted-Files/raw/main/land_reform_italy_B-L-M.pdf)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
