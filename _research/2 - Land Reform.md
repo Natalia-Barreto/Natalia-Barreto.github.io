@@ -10,5 +10,5 @@ citation: #'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal
 ---
 The impact of land redistribution on structural transformation is ambiguous. While large landowners may hinder industrialization by restricting access to education, larger farm scale can facilitate mechanization and productivity growth. This study uses novel fine-grained data to examine the long-term effects of the 1950 Italian land reform, which redistributed land from large to small landowners. Employing two difference-in-differences strategies, we find that redistribution slowed industrialization, with agglomeration forces emerging as a key mechanism, whereas education played a limited role. The reform’s effects on agricultural specialization persisted for at least 50 years, and expropriated areas experienced significantly lower income growth between 1970 and 2000.
 
-[Download paper here](https://github.com/Magna24/Hosted-Files/raw/main/Local_Specialization_and_Growth_2025_.pdf)
+[Download paper here](https://github.com/Magna24/Hosted-Files/raw/main/Local_Specialization_and_Growth_2025.pdf)
 
