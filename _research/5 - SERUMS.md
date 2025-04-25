@@ -16,4 +16,3 @@ We examine the labor supply decisions of healthcare providers and their conseque
 
 *Draft available upon request.
 
- 
