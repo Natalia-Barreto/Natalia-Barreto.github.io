@@ -11,7 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.research reversed %}
+{% assign sorted_research = site.research | sort: 'date' | reverse %}
+{% for post in sorted_research %}
 <div class="research-item">
   <h3>
     <a href="{{ post.paper_link }}" target="_blank">{{ post.title }}</a>
@@ -22,7 +23,9 @@ author_profile: true
       <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
     {% endfor %}
   </p>
-  <button class="toggle-abstract">Show Abstract</button>
+  <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
+  <p><strong>Status:</strong> {{ post.status }}</p>
+  <button class="toggle-abstract">+ Abstract</button>
   <div class="abstract hidden">
     <p>{{ post.excerpt }}</p>
   </div>
