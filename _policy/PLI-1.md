@@ -1,11 +1,11 @@
 ---
-title: "'Realizing the Promise of High Dosage Tutoring at Scale: Preliminary Evidence for the Field'"
+title: "Realizing the Promise of High Dosage Tutoring at Scale: Preliminary Evidence for the Field"
 collection: policy
 permalink: # /publication/2024-01-01-high-dosage-tutoring
-excerpt: "This technical report outlines preliminary results from the Personalized Learning Initiative showing that high dosage tutoring can be scaled and can work – even when delivered in the aftermath of the pandemic and in diverse academic settings."
+excerpt: 'This technical report outlines preliminary results from the Personalized Learning Initiative showing that high dosage tutoring can be scaled and can work – even when delivered in the aftermath of the pandemic and in diverse academic settings.'
 date: 2024-01-01
 venue: #'Technical Report'
-status: #'Published'
+status: 'Published'
 coauthors:
   - name: Monica Bhatt
   - name: Terence Chau
