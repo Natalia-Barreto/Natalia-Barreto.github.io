@@ -24,7 +24,7 @@ author_profile: true
     {% endfor %}
   </p>
   <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
-  <p><strong>Status:</strong> {{ post.status }}</p>
+  <!-- <p><strong>Status:</strong> {{ post.status }}</p> -->
   <button class="toggle-abstract">+ Abstract</button>
   <div class="abstract hidden">
     <p>{{ post.excerpt }}</p>
