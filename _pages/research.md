@@ -12,5 +12,77 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.research reversed %}
-  {% include archive-single.html %}
+<div class="research-item">
+  <h3>
+    <a href="{{ post.paper_link }}" target="_blank">{{ post.title }}</a>
+  </h3>
+  <p>
+    Coauthors: 
+    {% for coauthor in post.coauthors %}
+      <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+  </p>
+  <button class="toggle-abstract">Show Abstract</button>
+  <div class="abstract hidden">
+    <p>{{ post.abstract }}</p>
+  </div>
+</div>
 {% endfor %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButtons = document.querySelectorAll('.toggle-abstract');
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const abstract = button.nextElementSibling;
+            if (abstract.classList.contains('hidden')) {
+                abstract.classList.remove('hidden');
+                button.textContent = 'Hide Abstract';
+            } else {
+                abstract.classList.add('hidden');
+                button.textContent = 'Show Abstract';
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.research-item {
+    margin-bottom: 20px;
+}
+
+.research-item h3 {
+    margin: 0;
+}
+
+.research-item p {
+    margin: 5px 0;
+}
+
+.abstract {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-abstract {
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.toggle-abstract:hover {
+    background-color: #0056b3;
+}
+</style>
