@@ -6,6 +6,7 @@ excerpt: 'Enrollment gaps are pervasive in developing countries, despite public 
 To understand the drivers of this result, we assemble a new administrative dataset on college applications and build a model of education demand with heterogeneity in preferences and probability of admission. The results show that the interaction of initial advantage and meritocratic criteria increases educational inequality: even though proximity is highly valued by less-advantaged students, meritocratic admission criteria hinder poor and minority students, who disproportionately attend lower-quality high schools. Our counterfactuals show that addressing high school quality disparities is more likely to reduce college enrollment inequality than further supply expansions.'
 date: 2022-10-17
 venue: #'Journal 1'
+status: #'Working Paper Available'
 coauthors:
   - name: José Flor-Toro
     link: https://scholar.google.es/citations?user=4uZsFO4AAAAJ&hl=es
