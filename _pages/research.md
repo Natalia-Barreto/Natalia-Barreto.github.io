@@ -38,10 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const abstract = button.nextElementSibling;
             if (abstract.classList.contains('hidden')) {
                 abstract.classList.remove('hidden');
-                button.textContent = 'Hide Abstract';
+                button.textContent = '- Abstract';
             } else {
                 abstract.classList.add('hidden');
-                button.textContent = 'Show Abstract';
+                button.textContent = '+ Abstract';
             }
         });
     });
@@ -75,14 +75,14 @@ document.addEventListener('DOMContentLoaded', () => {
 .toggle-abstract {
     margin-top: 5px;
     cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
     padding: 5px 10px;
     border-radius: 3px;
 }
 
 .toggle-abstract:hover {
-    background-color: #0056b3;
+    background-color: #e6f2ff;
 }
 </style>
