@@ -14,20 +14,25 @@ author_profile: true
 {% assign sorted_research = site.research | sort: 'date' | reverse %}
 {% for post in sorted_research %}
 <div class="research-item">
-  <h3>
-    <a href="{{ post.paper_link }}" target="_blank">{{ post.title }}</a>
-  </h3>
-  <p>
-    Coauthors: 
-    {% for coauthor in post.coauthors %}
-      <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
-    {% endfor %}
-  </p>
-  <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
-  <p><strong>Status:</strong> {{ post.status }}</p>
-  <button class="toggle-abstract">+ Abstract</button>
-  <div class="abstract hidden">
-    <p>{{ post.excerpt }}</p>
+  <h3>{{ post.title }}</h3>
+  <div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <p>
+        Coauthors: 
+        {% for coauthor in post.coauthors %}
+          <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
+      <p><strong>Status:</strong> {{ post.status }}</p>
+      <button class="toggle-abstract">+ Abstract</button>
+      <div class="abstract hidden">
+        <p>{{ post.excerpt }}</p>
+      </div>
+    </div>
+    <div style="flex: 1; text-align: center;">
+      <p><em>Graph placeholder</em></p>
+    </div>
   </div>
 </div>
 {% endfor %}

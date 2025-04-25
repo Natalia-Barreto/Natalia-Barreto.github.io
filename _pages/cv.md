@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf)
+<!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
 <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
         style="width:100%; height:600px;" frameborder="0">
