@@ -24,7 +24,7 @@ author_profile: true
   </p>
   <button class="toggle-abstract">Show Abstract</button>
   <div class="abstract hidden">
-    <p>{{ post.abstract }}</p>
+    <p>{{ post.excerpt }}</p>
   </div>
 </div>
 {% endfor %}
