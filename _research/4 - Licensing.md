@@ -4,7 +4,7 @@ collection: research
 permalink: #/publication/2015-10-01-paper-title-number-3
 excerpt: 'We study the effects on labor market outcomes of a licensing process that led to the closure of 1/3 of Peruvian colleges (2016-2021). Using a rich panel dataset of recent college graduates and a difference-in-differences model, we find an increase in wages for graduates from colleges that obtained a license and no significant effects for graduates from universities whose license was denied.'
 date: 2022-10-17
-status: 'Working Paper Available Upon Request'
+status: '[Working Paper Available Upon Request](mailto:magnaricotte@uchicago.edu)'
 venue: #'Journal 1'
 paperurl: #'http://academicpages.github.io/files/paper3.pdf'
 coauthors:
