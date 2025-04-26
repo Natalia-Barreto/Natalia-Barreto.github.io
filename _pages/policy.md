@@ -30,7 +30,9 @@ author_profile: true
         <p>{{ post.excerpt }}</p>
       </div>
     </div>
-    {% endfor %}
+  </div>
+</div>
+{% endfor %}
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
