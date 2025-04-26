@@ -23,20 +23,14 @@ author_profile: true
           <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
-      <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
-      <p><strong>Status:</strong> <span>{% if post.status contains '[' and post.status contains ']' %}
-  {{ post.status | markdownify }}
-{% else %}
-  {{ post.status }}
-{% endif %}</span></p>
-      <button class="toggle-abstract">+ Abstract</button>
+      <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{% if post.status contains '[' and post.status contains ']' %}{{ post.status | markdownify }}{% else %}{{ post.status }}{% endif %}</span></p>     <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>
       </div>
     </div>
     <div style="flex: 1; text-align: center;">
   {% if post.graphpath %}
-    <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 10em; object-fit: contain;">
+    <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 18em; object-fit: contain;">
   {% else %}
     <p><em>Graph placeholder</em></p>
   {% endif %}
