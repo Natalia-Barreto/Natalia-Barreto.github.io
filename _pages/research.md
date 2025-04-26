@@ -24,11 +24,11 @@ author_profile: true
         {% endfor %}
       </p>
       <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
-      <p><strong>Status:</strong> {% if post.status contains '[' and post.status contains ']' %}
+      <p><strong>Status:</strong> <span>{% if post.status contains '[' and post.status contains ']' %}
   {{ post.status | markdownify }}
 {% else %}
   {{ post.status }}
-{% endif %}</p>
+{% endif %}</span></p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>
@@ -36,7 +36,7 @@ author_profile: true
     </div>
     <div style="flex: 1; text-align: center;">
   {% if post.graphpath %}
-    <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 5em; object-fit: contain;">
+    <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 10em; object-fit: contain;">
   {% else %}
     <p><em>Graph placeholder</em></p>
   {% endif %}
