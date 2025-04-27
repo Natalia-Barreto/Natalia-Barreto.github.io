@@ -32,7 +32,10 @@ author_profile: true
       </p>
       <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{{ post.status }}</span></p>
       <p>
-        <strong>Link:</strong> <a>{{ post.link | markdownify }}</a>
+        <strong>Link:</strong> 
+        {% for link in post.link %}
+          <a href="{{ link.url }}" target="_blank">{{ link.download }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
       </p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
