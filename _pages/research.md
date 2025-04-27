@@ -23,7 +23,7 @@ author_profile: true
       {% endif %}
     </div>
     <div style="flex: 2;">
-      <h3>{{ post.title }}</h3>
+      <h2>{{ post.title }}</h2>
       <p>
         <strong>Coauthors:</strong> 
         {% for coauthor in post.coauthors %}
