@@ -15,10 +15,10 @@ author_profile: true
 {% for post in sorted_research %}
 <div class="research-item">
   <h3>{{ post.title }}</h3>
-  <div style="display: flex; align-items: center;">
-    <div style="flex: 1; text-align: center;">
+  <div style="display: flex; align-items: left;">
+    <div style="flex: 1; text-align: left;">
       {% if post.graphpath %}
-        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 10em; object-fit: contain;">
+        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 12em; object-fit: contain;">
       {% else %}
         <p><em>Graph placeholder</em></p>
       {% endif %}
@@ -30,7 +30,7 @@ author_profile: true
           <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
-      <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{ post.status }</span></p>
+      <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{{ post.status }}</span></p>
       <p><strong>Link:</strong> {{ post.link }}</p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
