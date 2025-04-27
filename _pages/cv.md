@@ -12,7 +12,7 @@ redirect_from:
 CV - Matteo Magnaricotte
 <!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
-<a href="https://github.com/Magna24/Hosted-Files/Matteo_Magnaricotte_CV.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<a href="files/paper1.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 <!-- <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
         style="width:100%; height:600px;" frameborder="0">
 </iframe> -->
