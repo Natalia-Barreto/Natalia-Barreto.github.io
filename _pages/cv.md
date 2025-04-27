@@ -9,9 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-CV - Matteo Magnaricotte
+CV 
 <!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
+<a href="files/paper1.pdf" target="_blank">PDF.</a>
 <a href="files/paper1.pdf" class="image fit" type="application/pdf"><img src="files/jmp.png" alt=""></a>
 <!-- <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
         style="width:100%; height:600px;" frameborder="0">
