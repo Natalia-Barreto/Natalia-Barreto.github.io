@@ -12,8 +12,8 @@ redirect_from:
 CV 
 <!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
-<a href="files/paper1.pdf" target="_blank">PDF.</a>
-<a href="files/paper1.pdf" class="image fit" type="application/pdf"><img src="files/jmp.png" alt=""></a>
+<a href="magna24.github.io/files/CV_3_2025.pdf" target="_blank">Download PDF.</a>
+
 <!-- <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
         style="width:100%; height:600px;" frameborder="0">
 </iframe> -->
