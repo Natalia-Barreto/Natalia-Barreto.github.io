@@ -102,4 +102,11 @@ document.addEventListener('DOMContentLoaded', () => {
 .toggle-abstract:hover {
     background-color: #e6f2ff;
 }
+
+/* Hide graphs on mobile devices */
+@media (max-width: 768px) {
+    .research-item div:first-child {
+        display: none;
+    }
+}
 </style>
