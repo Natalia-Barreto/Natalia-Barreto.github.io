@@ -17,12 +17,12 @@ author_profile: true
   <div style="display: flex; align-items: left;">
     <div style="flex: 1; text-align: left;">
       {% if post.graphpath %}
-        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 12em; object-fit: contain;">
+        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 14em; object-fit: contain;">
       {% else %}
         <p><em>Graph placeholder</em></p>
       {% endif %}
     </div>
-    <div style="flex: 1;">
+    <div style="flex: 0;">
       <h3>{{ post.title }}</h3>
       <p>
         <strong>Coauthors:</strong> 
