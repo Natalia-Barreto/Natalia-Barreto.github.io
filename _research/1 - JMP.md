@@ -6,7 +6,9 @@ excerpt: 'Enrollment gaps are pervasive in developing countries, despite public 
 date: 2022-10-17
 venue: #'Journal 1'
 status: 'Working Paper Available'
-link: '[Download](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_JMP.pdf)'
+link: 
+  - download: Download
+    url: https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_JMP.pdf
 coauthors:
   - name: José Flor-Toro
     link: https://scholar.google.es/citations?user=4uZsFO4AAAAJ&hl=es

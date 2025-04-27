@@ -8,7 +8,9 @@ status: 'Submitted - Working Paper Available'
 venue: #'Journal 1'
 paperurl: #'http://academicpages.github.io/files/paper3.pdf'
 citation: #'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
-link: '[Download](https://github.com/Magna24/Hosted-Files/raw/main/hollywood_propaganda_C-M.pdf)'
+link: 
+  - download: Download
+    url: (https://github.com/Magna24/Hosted-Files/raw/main/hollywood_propaganda_C-M.pdf
 coauthors:
   - name: Mario Cannella
     link: https://sites.google.com/view/mariocannella/home
