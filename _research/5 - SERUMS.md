@@ -14,7 +14,7 @@ coauthors:
     link: https://scholar.google.es/citations?user=4uZsFO4AAAAJ&hl=es
 paperurl: #'http://academicpages.github.io/files/paper3.pdf'
 citation: #'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
-graphpath: '/files/land_reform_big_panel.png'
+graphpath: '/files/serums.png'
 ---
 We examine the labor supply decisions of healthcare providers in Peru and their consequences in a large sector characterized by staff shortages and inequitable supply. The Peruvian government implemented two incentive reforms to reduce unfilled posts and increase healthcare quality in health centers serving poorer, primarily rural populations. Using two regression discontinuity designs, we find that career advancement incentives attract significantly more skilled physicians to the targeted areas but are almost ineffective for nurses; the opposite is true for monetary incentives, which attract more skilled nurses to the neediest areas. However, applying the same empirical approach to rich survey data covering the pre- and post-reform periods, we don’t find any change in utilization and insignificant or negative effects on the perceived quality of healthcare services received in the targeted areas.
 
