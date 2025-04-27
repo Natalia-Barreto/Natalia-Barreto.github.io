@@ -25,13 +25,16 @@ author_profile: true
     <div style="flex: 1;">
       <h3>{{ post.title }}</h3>
       <p>
-        Coauthors: 
+        <strong>Coauthors:</strong> 
         {% for coauthor in post.coauthors %}
           <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
       <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{{ post.status }}</span></p>
-      <p><strong>Link:</strong> <a>{{ post.link | markdownify }}</a></p>
+      <p>
+      <strong>Link:</strong> 
+        <a>{{ post.link | markdownify }}</a>
+      </p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>
