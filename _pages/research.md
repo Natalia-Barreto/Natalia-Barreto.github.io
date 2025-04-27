@@ -14,7 +14,6 @@ author_profile: true
 {% assign sorted_research = site.research | sort: 'date' | reverse %}
 {% for post in sorted_research %}
 <div class="research-item">
-  <h3>{{ post.title }}</h3>
   <div style="display: flex; align-items: left;">
     <div style="flex: 1; text-align: left;">
       {% if post.graphpath %}
@@ -24,6 +23,7 @@ author_profile: true
       {% endif %}
     </div>
     <div style="flex: 1;">
+      <h3>{{ post.title }}</h3>
       <p>
         Coauthors: 
         {% for coauthor in post.coauthors %}
