@@ -6,6 +6,9 @@ excerpt: "Design of performance indicators for public colleges for the determina
 date: 2020-01-01
 venue: #'Policy Report'
 status: #'Available upon request'
+link: 
+  - download: Contact me
+    url: mailto:magnaricotte@uchicago.edu
 coauthors:
   - name: José Flor-Toro
     link: https://scholar.google.es/citations?user=4uZsFO4AAAAJ&hl=es

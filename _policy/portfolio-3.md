@@ -6,6 +6,9 @@ excerpt: "Consultancy for the description of the effects of regulation on colleg
 date: 2020-01-01
 venue: #'Consultancy Report'
 status: #'Available upon request'
+link: 
+  - download: Contact me
+    url: mailto:magnaricotte@uchicago.edu
 coauthors:
   - name: Fabiola Alba Vivar
     link: https://fabiolaalbavivar.com/

@@ -17,7 +17,7 @@ author_profile: true
   <div style="display: flex; align-items: left;">
     <div style="flex: 1; text-align: left;">
       {% if post.graphpath %}
-        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 14em; object-fit: contain;">
+        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; width: 12em; object-fit: contain;">
       {% else %}
         <p><em>Graph placeholder</em></p>
       {% endif %}

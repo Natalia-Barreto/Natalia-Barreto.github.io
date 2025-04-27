@@ -25,6 +25,12 @@ author_profile: true
       </p>
       <p><strong>Year:</strong> {{ post.date | date: "%Y" }}</p>
       <!-- <p><strong>Status:</strong> {{ post.status }}</p> -->
+      <p>
+        <strong>Link:</strong> 
+        {% for link in post.link %}
+          <a href="{{ link.url }}" target="_blank">{{ link.download }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>

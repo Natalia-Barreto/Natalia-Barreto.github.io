@@ -4,6 +4,9 @@ collection: policy
 permalink: # /publication/2025-01-01-new-mexico-tutoring
 excerpt: "This Issue Focus outlines the implementation and findings of a tutoring program in New Mexico, focusing on the logistical challenges and lessons learned from scaling up tutoring efforts to better support students in need."
 date: 2025-01-01
+link: 
+  - download: Read
+    url: https://www.mdrc.org/work/publications/more-tutoring-lessons-new-mexico
 venue: #'Issue Focus'
 status: '[Published](https://www.mdrc.org/work/publications/more-tutoring-lessons-new-mexico)'
 coauthors:
