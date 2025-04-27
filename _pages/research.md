@@ -17,22 +17,22 @@ author_profile: true
   <div style="display: flex; align-items: left;">
     <div style="flex: 1; text-align: center;">
       {% if post.graphpath %}
-        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 12em; max-height: 14em; object-fit: contain;">
+        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 12em; max-height: 10em; object-fit: contain;">
       {% else %}
         <p><em>Graph placeholder</em></p>
       {% endif %}
     </div>
     <div style="flex: 2;">
-      <h2>{{ post.title }}</h2>
+      <h3>{{ post.title }}</h3>
       <p>
-        <strong>Coauthors:</strong> 
+        <it>Coauthors:</it> 
         {% for coauthor in post.coauthors %}
           <a href="{{ coauthor.link }}" target="_blank">{{ coauthor.name }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
-      <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{{ post.status }}</span></p>
+      <p><it>Year:</it> {{ post.date | date: "%Y" }} | <it>Status:</it> <span>{{ post.status }}</span></p>
       <p>
-        <strong>Link:</strong> 
+        <it>Link:</it> 
         {% for link in post.link %}
           <a href="{{ link.url }}" target="_blank">{{ link.download }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
