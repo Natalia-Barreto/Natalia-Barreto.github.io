@@ -22,7 +22,7 @@ author_profile: true
         <p><em>Graph placeholder</em></p>
       {% endif %}
     </div>
-    <div style="flex: 0;">
+    <div style="flex: 2;">
       <h3>{{ post.title }}</h3>
       <p>
         <strong>Coauthors:</strong> 
