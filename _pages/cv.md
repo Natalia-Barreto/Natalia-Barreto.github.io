@@ -11,8 +11,8 @@ redirect_from:
 
 <!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
-<a href="https://magna24.github.io/files/CV_3_2025.pdf" target="_blank">Download PDF.</a>
-<a href="https://magna24.github.io/files/CV_3_2025.pdf" class="image fit"><img src="https://magna24.github.io/files/serums.png" alt=""></a>
+<a href="https://magna24.github.io/files/CV_3_2025.pdf" target="_blank">Download PDF</a>
+<!-- <a href="https://magna24.github.io/files/CV_3_2025.pdf" class="image fit"><img src="https://magna24.github.io/files/serums.png" alt=""></a> -->
 
 <!-- <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
         style="width:100%; height:600px;" frameborder="0">
