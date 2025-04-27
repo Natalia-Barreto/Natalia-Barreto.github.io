@@ -31,7 +31,7 @@ author_profile: true
           <a href="{{ link.url }}" target="_blank">{{ link.download }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
-      <button class="toggle-abstract">+ Abstract</button>
+      <button class="toggle-abstract">+ Description</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>
       </div>
@@ -49,10 +49,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const abstract = button.nextElementSibling;
             if (abstract.classList.contains('hidden')) {
                 abstract.classList.remove('hidden');
-                button.textContent = '- Abstract';
+                button.textContent = '- Description';
             } else {
                 abstract.classList.add('hidden');
-                button.textContent = '+ Abstract';
+                button.textContent = '+ Description';
             }
         });
     });
