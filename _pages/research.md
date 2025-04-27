@@ -18,7 +18,7 @@ author_profile: true
   <div style="display: flex; align-items: center;">
     <div style="flex: 1; text-align: center;">
       {% if post.graphpath %}
-        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 18em; object-fit: contain;">
+        <img src="{{ post.graphpath }}" alt="Graph for {{ post.title }}" style="max-width: 100%; height: 10em; object-fit: contain;">
       {% else %}
         <p><em>Graph placeholder</em></p>
       {% endif %}
@@ -31,6 +31,7 @@ author_profile: true
         {% endfor %}
       </p>
       <p><strong>Year:</strong> {{ post.date | date: "%Y" }} | <strong>Status:</strong> <span>{ post.status }</span></p>
+      <p><strong>Link:</strong> {{ post.link }}</p>
       <button class="toggle-abstract">+ Abstract</button>
       <div class="abstract hidden">
         <p>{{ post.excerpt }}</p>
