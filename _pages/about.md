@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal website. I am a PhD student in the Department of Economics at the University of Illinois Urabana-Champaign. My research interests include Labor-,Urban and Public Economics with special focus on topics of Migration. 
+Welcome to my personal website. I am a PhD student in the Department of Economics at the University of Illinois Urbana-Champaign. My research interests include Labor-, Urban and Public Economics with special focus on topics of Migration. 
