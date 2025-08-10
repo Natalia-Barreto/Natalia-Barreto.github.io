@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Natalia Barreto"
+title                    : "Natalia Barreto-Parra"
 title_separator          : "-"
-name                     : &name "Matteo Magnaricotte"
+name                     : &name "Natalia Barreto-Parra"
 description              : &description "Research Director at UChicago's Education Lab and Crime Lab"
 url                      : https://Magna24.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Matteo Magnaricotte"
+  name             : "Natalia Barreto-Parra"
   avatar           : "profile.png"
   bio              : "Research Director at UChicago's Education Lab and Crime Lab"
   location         : 
