@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Natalia Barreto-Parra"
 title_separator          : "-"
 name                     : &name "Natalia Barreto-Parra"
-description              : &description "Research Director at UChicago's Education Lab and Crime Lab"
-url                      : https://Magna24.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Economics PhD student at the University of Illinois at Urabana-Champaigna"
+url                      : https://Natalia-Barreto.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Magna24.github.io"
+repository               : "Natalia-Barreto.github.io"
 teaser                   :  #  filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Natalia Barreto-Parra"
   avatar           : "profile.png"
-  bio              : "Research Director at UChicago's Education Lab and Crime Lab"
+  bio              : "Economics PhD student at the University of Illinois at Urabana-Champaigna"
   location         : 
   employer         :  # "https://urbanlabs.uchicago.edu/labs/education"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=fOI_3jQAAAAJ"
-  email            : "magnaricotte@uchicago.edu"
+  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=chbjznoAAAAJ"
+  email            : "pb31@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
