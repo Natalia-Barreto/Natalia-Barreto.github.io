@@ -11,7 +11,7 @@ redirect_from:
 
 <!-- [Download here](https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf) -->
 
-<a href="https://natalia-barreto.github.io/files/Barreto-Paula-cv-2025-06-02.pdf" target="_blank">Download PDF</a>
+<a href="https://natalia-barreto.github.io/files/Barreto-Paula-cv-2025-08-10.pdf" target="_blank">Download PDF</a>
 <!-- <a href="https://magna24.github.io/files/CV_3_2025.pdf" class="image fit"><img src="https://magna24.github.io/files/serums.png" alt=""></a> -->
 
 <!-- <iframe src="https://github.com/Magna24/Hosted-Files/raw/main/Matteo_Magnaricotte_CV.pdf" 
