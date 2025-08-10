@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Consultoría para describir el efecto de la regulación universitaria en la inserción laboral de los egresados en el Perú, según familias de carreras (in Spanish)"
 collection: policy
 permalink: # /publication/2020-01-01-regulacion-universitaria
@@ -18,4 +18,4 @@ paperurl: ''
 citation: #'Alba Vivar, F., & Flor-Toro, J. (2020). "Consultoría para describir el efecto de la regulación universitaria en la inserción laboral de los egresados en el Perú, según familias de carreras." Consultancy Report.'
 ---
 Consultancy for the description of the effects of regulation on college graduates’ employment, by major groups
-
+ -->

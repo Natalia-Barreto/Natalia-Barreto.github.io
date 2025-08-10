@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Personalized Learning Initiative Interim Report: Findings from 2023-24"
 collection: policy
 permalink: # /publication/2024-01-01-high-dosage-tutoring
@@ -27,4 +27,4 @@ citation: #'Bhatt, M., Chau, T., Condliffe, B., Davis, R., Grossman, J., Guryan,
 This technical report outlines preliminary results from the Personalized Learning Initiative in School Year 2023-24. It shows positive impacts from many types of tutoring–both more and less expensive tutoring models–across the country.
 
 [Read the full report here](https://educationlab.uchicago.edu/resources/personalized-learning-initiative-interim-report-findings-from-2023-24/)
-
+ -->

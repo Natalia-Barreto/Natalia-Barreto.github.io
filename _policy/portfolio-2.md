@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Los factores que limitan la transición a la Educación Superior: Situación actual y recomendaciones de política pública (in Spanish)"
 collection: policy
 permalink: # /publication/2020-01-01-transicion-educacion-superior
@@ -18,4 +18,4 @@ paperurl: ''
 citation: #'Alba Vivar, F., & Flor-Toro, J. (2020). "Los factores que limitan la transición a la Educación Superior: Situación actual y recomendaciones de política pública." Policy Report.'
 ---
 Factors limiting the transition to Higher Education: current situation and recommendations for public policy
-
+ -->

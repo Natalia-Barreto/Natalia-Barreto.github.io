@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Diseño de indicadores de desempeño de universidades públicas para la determinación de acuerdos de desempeño con el Sector Educación (in Spanish)"
 collection: policy
 permalink: # /publication/2020-01-01-indicadores-desempeno
@@ -16,4 +16,4 @@ paperurl: ''
 citation: #'Flor-Toro, J. (2020). "Diseño de indicadores de desempeño de universidades públicas para la determinación de acuerdos de desempeño con el Sector Educación." Policy Report.'
 ---
 Design of performance indicators for public colleges for the determination of sectoral funding agreements
-
+ -->
